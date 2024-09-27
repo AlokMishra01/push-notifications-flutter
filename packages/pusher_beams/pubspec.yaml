@@ -12,13 +12,21 @@ dependencies:
   flutter:
     sdk: flutter
   pusher_beams_platform_interface:
-    path: ../../packages/pusher_beams_platform_interface
+    git:
+      url: https://github.com/AlokMishra01/push-notifications-flutter
+      path: packages/pusher_beams_platform_interface/
   pusher_beams_web:
-    path: ../../packages/pusher_beams_web
+    git:
+      url: https://github.com/AlokMishra01/push-notifications-flutter
+      path: packages/pusher_beams_web/
   pusher_beams_android:
-    path: ../../packages/pusher_beams_android
+    git:
+      url: https://github.com/AlokMishra01/push-notifications-flutter
+      path: packages/pusher_beams_android/
   pusher_beams_ios:
-    path: ../../packages/pusher_beams_ios
+    git:
+      url: https://github.com/AlokMishra01/push-notifications-flutter
+      path: packages/pusher_beams_ios/
   uuid: ^4.4.0
 
 dev_dependencies:
