@@ -17,7 +17,7 @@ dependencies:
     git:
       url: https://github.com/AlokMishra01/push-notifications-flutter
       path: packages/pusher_beams_platform_interface/
-  js: ^0.7.1
+  js: ^0.6.3
   uuid: ^4.4.0
 
 dev_dependencies:
